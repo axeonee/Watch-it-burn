@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fire",
-    "path":"sprites/spr_fire/spr_fire.yy",
+    "name":"spr_incinerator",
+    "path":"sprites/spr_incinerator/spr_incinerator.yy",
   },
   "spriteMaskId":null,
   "visible":true,

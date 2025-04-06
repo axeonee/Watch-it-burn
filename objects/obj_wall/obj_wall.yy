@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_bricks",
+    "path":"sprites/spr_bricks/spr_bricks.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ash",
-    "path":"sprites/spr_ash/spr_ash.yy",
+    "name":"spr_pot",
+    "path":"sprites/spr_pot/spr_pot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -32,10 +32,10 @@ if (place_meeting(x, y, obj_player)) && (visible)
 			instance_destroy(myTextbox)
 			if (global.score <= 2) global.score++
 			visible = false
-			instance_create_layer(x, y, "UI", transition)
+			//instance_create_layer(x, y, "UI", transition)
 	
 			// Truck come back
-			alarm[0] = game_get_speed(gamespeed_fps) * 7
+			//alarm[0] = game_get_speed(gamespeed_fps) * 7
 		}
 	}
 	// Dialogue box

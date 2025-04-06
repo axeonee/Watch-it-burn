@@ -11,6 +11,6 @@ if global.grabbed_inst == obj_item1
 {
 	//Update the position of the object
     x = obj_player.x
-    y = obj_player.y - 16
+    y = obj_player.y - 18
 }
 

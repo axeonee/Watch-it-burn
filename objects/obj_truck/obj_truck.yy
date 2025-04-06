@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_truck",
-    "path":"sprites/spr_truck/spr_truck.yy",
+    "name":"spr_van",
+    "path":"sprites/spr_van/spr_van.yy",
   },
   "spriteMaskId":null,
   "visible":true,
