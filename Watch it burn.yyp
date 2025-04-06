@@ -42,6 +42,7 @@
     {"id":{"name":"obj_ash","path":"objects/obj_ash/obj_ash.yy",},},
     {"id":{"name":"obj_fire","path":"objects/obj_fire/obj_fire.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_item1","path":"objects/obj_item1/obj_item1.yy",},},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -49,7 +50,10 @@
     {"id":{"name":"obj_truck","path":"objects/obj_truck/obj_truck.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"par_items","path":"objects/par_items/par_items.yy",},},
+    {"id":{"name":"transition","path":"objects/transition/transition.yy",},},
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
+    {"id":{"name":"room2","path":"rooms/room2/room2.yy",},},
+    {"id":{"name":"s_trans_sq","path":"sprites/s_trans_sq/s_trans_sq.yy",},},
     {"id":{"name":"spr_ash","path":"sprites/spr_ash/spr_ash.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
@@ -63,6 +67,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
+    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
