@@ -1,6 +1,5 @@
 // CHEAT commands
 // R - reset
-// X - transition
 /*if keyboard_check_pressed(ord("R"))
 {
 	game_restart()	

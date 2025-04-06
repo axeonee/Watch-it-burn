@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_newspaper1",
-    "path":"sprites/spr_newspaper1/spr_newspaper1.yy",
+    "name":"spr_news_1",
+    "path":"sprites/spr_news_1/spr_news_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
