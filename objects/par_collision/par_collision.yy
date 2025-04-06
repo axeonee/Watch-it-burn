@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"par_collision",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"par_collision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviroment",
-    "path":"folders/Objects/Enviroment.yy",
+    "name":"Misc",
+    "path":"folders/Objects/Misc.yy",
   },
-  "parentObjectId":{
-    "name":"par_collision",
-    "path":"objects/par_collision/par_collision.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,7 +1,7 @@
 /// @description Grabbing grabs grab code
 
 //If burning, drop the object
-if (place_meeting(x, y, obj_fire))
+if (place_meeting(x, y, obj_incinerator))
 {
 	global.grabbed_inst = noone
 }

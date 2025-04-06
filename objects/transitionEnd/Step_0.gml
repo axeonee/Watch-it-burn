@@ -7,15 +7,7 @@ switch(state){
 		} else {
 			state = states.IN
 			//goto room
-			switch (room)
-			{
-				case room1:
-					room_goto_next()
-				break
-				case room2:
-					room_goto_previous()
-				break
-			}
+			room_goto(credits)
 		}
 	break;
 	case states.IN:

@@ -10,34 +10,36 @@ hsp = move * walksp
 
 vsp = vsp + grv
 
-if (place_meeting(x, y+1, obj_wall)) && (key_jump)
+if (place_meeting(x, y+1, par_collision)) && (key_jump)
 {
 	vsp = -7
 }
 
+//Ladder
 if (place_meeting(x, y+1, obj_ladder)) && (key_jump)
 {
 	vsp = -7
 }
 
 // Horizontal Collision
-if (place_meeting(x+hsp, y, obj_wall))
+if (place_meeting(x+hsp, y, par_collision))
 {
-	while (!place_meeting(x+sign(hsp), y, obj_wall))
+	while (!place_meeting(x+sign(hsp), y, par_collision))
 	{
 		x = x + sign(hsp)	
 	}
 	hsp = 0
 }
-x = x + hsp
+
+if (canMove) x = x + hsp
 
 // Vertical Collision
-if (place_meeting(x, y+vsp, obj_wall))
+if (place_meeting(x, y+vsp, par_collision))
 {
-	while (!place_meeting(x, y+sign(vsp), obj_wall))
+	while (!place_meeting(x, y+sign(vsp), par_collision))
 	{
 		y = y + sign(vsp)	
 	}
 	vsp = 0
 }
-y = y + vsp
+if (canMove) y = y + vsp

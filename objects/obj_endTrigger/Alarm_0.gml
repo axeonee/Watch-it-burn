@@ -1,0 +1,1 @@
+instance_create_layer(2300, 545, "Fire", obj_fire)

@@ -14,7 +14,10 @@ if (place_meeting(x, y, obj_player)) && (visible)
 		        global.grabbed_inst = obj_item1
 		    }
 			// If there have been 3 bodies already burnt, leave after body is unloaded
-			alarm[2] = game_get_speed(gamespeed_fps)
+			if(global.score == 3)
+			{
+				alarm[2] = game_get_speed(gamespeed_fps)
+			}
 		}
 	
 		// Load ash
