@@ -42,6 +42,7 @@
   "resources":[
     {"id":{"name":"fnt_kenny","path":"fonts/fnt_kenny/fnt_kenny.yy",},},
     {"id":{"name":"obj_ash","path":"objects/obj_ash/obj_ash.yy",},},
+    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_endTrigger","path":"objects/obj_endTrigger/obj_endTrigger.yy",},},
     {"id":{"name":"obj_fire","path":"objects/obj_fire/obj_fire.yy",},},
@@ -72,6 +73,7 @@
     {"id":{"name":"spr_body","path":"sprites/spr_body/spr_body.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_bricks","path":"sprites/spr_bricks/spr_bricks.yy",},},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_doorPlaceholder","path":"sprites/spr_doorPlaceholder/spr_doorPlaceholder.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
@@ -98,10 +100,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"roomId":{"name":"credits","path":"rooms/credits/credits.yy",},},
-    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

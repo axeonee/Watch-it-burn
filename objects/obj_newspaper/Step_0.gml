@@ -17,3 +17,7 @@ if (room == credits)
 {
 	sprite_index = news_credits	
 }
+else if (room == menu)
+{
+	sprite_index = spr_news_main_menu
+}
