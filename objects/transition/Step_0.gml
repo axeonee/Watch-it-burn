@@ -10,7 +10,7 @@ switch(state){
 			switch (room)
 			{
 				case menu:
-					room_goto_next()
+					room_goto(room1)
 				break
 				case room1:
 					room_goto_next()

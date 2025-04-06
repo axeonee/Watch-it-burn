@@ -67,6 +67,7 @@
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"id":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"id":{"name":"screenShake","path":"scripts/screenShake/screenShake.yy",},},
+    {"id":{"name":"fire","path":"sprites/fire/fire.yy",},},
     {"id":{"name":"news_credits","path":"sprites/news_credits/news_credits.yy",},},
     {"id":{"name":"s_trans_sq","path":"sprites/s_trans_sq/s_trans_sq.yy",},},
     {"id":{"name":"spr_ash","path":"sprites/spr_ash/spr_ash.yy",},},
