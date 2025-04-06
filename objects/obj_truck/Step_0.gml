@@ -13,6 +13,8 @@ if (place_meeting(x, y, obj_player)) && (visible)
 				// Grab the object
 		        global.grabbed_inst = obj_item1
 		    }
+			// If there have been 3 bodies already burnt, leave after body is unloaded
+			alarm[2] = game_get_speed(gamespeed_fps)
 		}
 	
 		// Load ash
@@ -27,6 +29,7 @@ if (place_meeting(x, y, obj_player)) && (visible)
 			instance_destroy(myTextbox)
 			if (global.score <= 2) global.score++
 			visible = false
+			instance_create_layer(x, y, "UI", transition)
 	
 			// Truck come back
 			alarm[0] = game_get_speed(gamespeed_fps) * 7
