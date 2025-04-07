@@ -21,7 +21,7 @@ if (place_meeting(x, y, obj_player)) && (visible)
 		}
 	
 		// Load ash
-		else if (instance_exists(obj_ash))
+		else if (instance_exists(obj_ash)) && global.grabbed_inst == obj_ash
 		{
 			// Destroy ash
 			instance_destroy(obj_ash)
